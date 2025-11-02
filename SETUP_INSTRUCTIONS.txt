@@ -1,0 +1,40 @@
+SETUP INSTRUCTIONS
+==================
+
+1. Create a new folder on your computer called "personal-website"
+
+2. Copy ALL these files into that folder, maintaining this structure:
+
+personal-website/
+├── public/
+│   └── Exec_resume_10_2025.docx
+├── src/
+│   ├── assets/
+│   │   └── Bockrath_Website_Picture.png
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Experience.jsx
+│   │   ├── GemShowcase.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navigation.jsx
+│   │   └── Portfolio.jsx
+│   ├── data/
+│   │   └── gems.js
+│   ├── styles/
+│   │   └── index.css
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+
+3. Open terminal in that folder and run:
+   npm install
+   npm run build
+
+4. Then follow the GitHub/Vercel deployment guides
+
